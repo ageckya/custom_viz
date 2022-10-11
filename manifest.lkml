@@ -1,17 +1,17 @@
 project_name: "custom_viz"
 
 constant: VIS_LABEL {
-  value: "Calendar Heatmap Modified"
+  value: "Chord"
   export: override_optional
 }
 
 constant: VIS_ID {
-  value: "calendar_heatmap-modified"
+  value: "chord"
   export:  override_optional
 }
 
 visualization: {
   id: "@{VIS_ID}"
-  file: "calendar_chart.js"
+  url: "https://looker-custom-viz-a.lookercdn.com/master/chord.js"
   label: "@{VIS_LABEL}"
 }
